@@ -1,0 +1,74 @@
+
+body{
+   font-family: 'Voltaire', sans-serif;
+}
+.topper{
+    margin-left: 40px ;
+    margin-top: 40px;
+}
+.blue{
+    color: blue;
+}
+
+.red{
+    color: red;
+}
+
+section{
+    display: flex;
+    margin-bottom: 100px;
+
+}
+.half-width{     width: 50%;
+    margin: 40px;
+   
+}
+
+.half-width img{ width: 100%;
+
+}
+
+.half-width-long-imag {
+    width: 50%;
+    margin: 40px;
+}
+
+
+.half-width-long-imag img{
+    width: 70%;
+}
+
+.link-button{
+background-image: linear-gradient(red, blue);
+font-style: 0;
+color: white;
+padding: 5px 10px;
+text-decoration: none;
+border-radius: 5px;
+box-shadow: 10px 10px 40px rgb(71, 57, 133);
+}
+
+#half-widthx{
+    width: 50%;
+    margin: 40px;
+    box-shadow: 10px 10px 40px rgb(71, 57, 133);
+    padding: 10px;
+    border-radius: 10px;
+    border-left: 10px solid ;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+}
+
+#half-widthy{
+    width: 50%;
+    margin: 40px;
+    box-shadow: 10px 10px 40px rgb(71, 57, 133);
+    padding: 10px;
+    border-radius: 10px;
+    border-left: 10px solid ;
+    border-image: linear-gradient(blue, red);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
